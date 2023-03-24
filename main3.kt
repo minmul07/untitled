@@ -1,7 +1,7 @@
 open class SmartDevice(val name: String, val category: String) { //main constructor
     // 최종 클래스를 open 클래스를 통해 확장 가능성을 알림
 
-    var deviceStatus = "online"
+    private var deviceStatus = "online"
 
     open val deviceType = "unknown"
 
