@@ -13,6 +13,8 @@ open class Phone(var isScreenLightOn: Boolean = false) {
     }
 }
 
+
+
 class FoldablePhone(var isFolded: Boolean = true) : Phone() {
     override fun switchOn() {
         if (!isFolded) {
@@ -45,4 +47,6 @@ fun main() {
     galaxyFold4.checkPhoneScreenLight()
     galaxyFold4.switchOff()
     galaxyFold4.checkPhoneScreenLight()
+
+    println(5 % 5)
 }

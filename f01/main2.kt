@@ -1,3 +1,5 @@
+package f01
+
 fun main() {
     var favoriteActor: String? = null
 
